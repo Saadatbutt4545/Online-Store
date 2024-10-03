@@ -1,4 +1,3 @@
-
 /* Variriables */
 :root {
 	--khaki: #010e38;
@@ -20,17 +19,11 @@
 	font-weight: normal;
 	box-sizing: border-box;
 }
-@media only screen and (min-width: 1024px) {
-	body {
-	  background-color: #f2f2f2;
-	}
-}
 body{
 	width: 100%;
 	height: 100vh;
 	background-color: var(--darkStaleGray);
 }
-
 hr{
 	border: 1px solid rgba(236, 240, 241,0.3);
 }
@@ -214,7 +207,7 @@ main .slider .slider-text{
 	top: 50%;
 	left: 50px;
 	color: var(--white);
-	background-color: rgba(92, 138, 120, 0.5);
+	background-color: rgba(0,0,0,0.5);
 	border-radius: 3px;
 	padding: 20px;
 }
